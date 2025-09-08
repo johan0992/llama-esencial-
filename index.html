@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+ <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tienda de Velas Artesanales</title>
+  <style>
+     #frase {
+  background: linear-gradient(135deg, #002bff, #ff7a00);
+  color: white;
+  padding: 3rem 2rem;
+  text-align: center;
+  font-style: italic;
+  font-size: 1.3rem;
+  border-radius: 15px;
+  margin: 2rem auto;
+  max-width: 900px;
+  box-shadow: 0 5px 20px rgba(0,0,0,0.2);
+}
+
+#frase blockquote {
+  margin: 0;
+  line-height: 1.6;
+}
+
+    .logo {
+  font-family: 'Great Vibes', cursive;
+  font-size: 3rem;
+  font-weight: normal;
+  color: white;
+  text-shadow: 2px 2px 6px rgba(0,0,0,0.3);
+}
+
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      background: #fff;
+      color: #111;
+    }
+
+    header {
+      background: linear-gradient(90deg, #002bff, #ff2b2b, #ff7a00);
+      color: white;
+      text-align: center;
+      padding: 2rem 1rem;
+      font-size: 1.5rem;
+      font-weight: bold;
+    }
+
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+      padding: 1rem;
+      background: #111;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      transition: color 0.3s;
+    }
+
+    nav a:hover {
+      color: #ff7a00;
+    }
+
+    .btn {
+      background: #002bff;
+      color: white;
+      border: none;
+      padding: 0.8rem 1.5rem;
+      border-radius: 8px;
+      font-weight: bold;
+      cursor: pointer;
+      transition: background 0.3s ease, transform 0.2s;
+    }
+
+    .btn:hover {
+      background: #ff2b2b;
+      transform: scale(1.05);
+    }
+
+    section {
+      padding: 3rem 2rem;
+      text-align: center;
+    }
+
+    h2 {
+      margin-bottom: 1.5rem;
+      color: #002bff;
+    }
+
+    .productos {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 2rem;
+    }
+
+    .producto {
+      background: #f9f9f9;
+      border-radius: 15px;
+      padding: 1.5rem;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+      transition: transform 0.3s, box-shadow 0.3s;
+    }
+
+    .producto:hover {
+      transform: translateY(-10px);
+      box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+    }
+
+    .producto img {
+      max-width: 100%;
+      border-radius: 10px;
+    }
+
+    .producto h3 {
+      margin: 1rem 0;
+      color: #ff7a00;
+    }
+
+    .tips, .temas {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1.5rem;
+      justify-content: center;
+    }
+
+    .tip, .tema {
+      background: #111;
+      color: white;
+      padding: 1.2rem;
+      border-radius: 10px;
+      width: 250px;
+      transition: transform 0.3s;
+    }
+
+    .tip:hover, .tema:hover {
+      transform: scale(1.05);
+      background: #ff2b2b;
+    }
+
+    footer {
+      background: #111;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 2rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+<header>
+  <h1 class="logo">Llama Esencial ✨</h1>
+</header>
+    ✨ Tienda de Velas Artesanales ✨
+  </header>
+
+  <nav>
+    <a href="#productos">Productos</a>
+    <a href="#tips">Tips</a>
+    <a href="#temas">Relajación</a>
+    <a href="#contacto">Contacto</a>
+  </nav>
+
+  <section id="productos">
+    <h2>Nuestras Velas</h2>
+    <div class="productos">
+      <div class="producto">
+        <img src="https://images.unsplash.com/photo-1582719478173-2f6b6c2d4a2d?w=400" alt="Vela artesanal 1">
+        <h3>Vela de Lavanda</h3>
+        <p>Relajante y perfecta para el descanso.</p>
+        <button class="btn">Comprar</button>
+      </div>
+      <div class="producto">
+        <img src="https://images.unsplash.com/photo-1600959907703-42d04db59f7b?w=400" alt="Vela artesanal 2">
+        <h3>Vela Cítrica</h3>
+        <p>Refrescante aroma de naranja y limón.</p>
+        <button class="btn">Comprar</button>
+      </div>
+      <div class="producto">
+        <img src="https://images.unsplash.com/photo-1628015644000-c8f45b4e7f6f?w=400" alt="Vela artesanal 3">
+        <h3>Vela de Canela</h3>
+        <p>Calidez y energía para tu hogar.</p>
+        <button class="btn">Comprar</button>
+      </div>
+      <div class="producto">
+        <img src="https://images.unsplash.com/photo-1615874959474-ecb47cba3a6e?w=400" alt="Vela artesanal 4">
+        <h3>Vela de Rosas</h3>
+        <p>Un toque romántico y delicado.</p>
+        <button class="btn">Comprar</button>
+      </div>
+      <div class="producto">
+        <img src="https://images.unsplash.com/photo-1582719478438-53fefdf4a6ac?w=400" alt="Vela artesanal 5">
+        <h3>Vela de Vainilla</h3>
+        <p>Dulce y acogedora, ideal para el hogar.</p>
+        <button class="btn">Comprar</button>
+      </div>
+      <div class="producto">
+        <img src="https://images.unsplash.com/photo-1607083205399-4c8a67a00df7?w=400" alt="Vela artesanal 6">
+        <h3>Vela de Coco</h3>
+        <p>Un aroma tropical y refrescante.</p>
+        <button class="btn">Comprar</button>
+      </div>
+    </div>
+  </section>
+
+  <section id="tips">
+    <h2>Tips para tus Velas</h2>
+    <div class="tips">
+      <div class="tip">🕯 Enciende tu vela por al menos 2 horas en su primer uso.</div>
+      <div class="tip">🔥 Corta la mecha a 5 mm antes de cada uso.</div>
+      <div class="tip">🌿 Usa tus velas en espacios ventilados.</div>
+      <div class="tip">💧 Apaga tu vela sin soplarla, mejor con un apagavelas.</div>
+      <div class="tip">✨ Nunca dejes tu vela encendida sin supervisión.</div>
+    </div>
+  </section>
+
+  <section id="temas">
+    <h2>Velas para la Relajación y Bienestar</h2>
+    <div class="temas">
+      <div class="tema">🌙 Relajación profunda: velas de lavanda y manzanilla.</div>
+      <div class="tema">🧘 Paz interior: acompaña tu meditación con velas aromáticas.</div>
+      <div class="tema">🏡 Tranquilidad en el hogar: velas de vainilla y coco.</div>
+      <div class="tema">💖 Bienestar emocional: velas de rosas para ambientes románticos.</div>
+    </div>
+  </section>
+
+  <section id="contacto">
+    <h2>Contáctanos</h2>
+    <p>Correo: <b>velasartesanales@email.com</b></p>
+    <p>Instagram: <b>@velasartesanales</b></p>
+  </section>
+
+<section id="frase">
+  <blockquote>
+    “Enciende una vela, respira profundo y permite que su luz y aroma guíen tu mente hacia la paz, la calma y la serenidad que tanto mereces. 
+    Cada chispa es un recordatorio de que la tranquilidad habita en tu interior, esperando ser encendida.”
+  </blockquote>
+</section>
+
+  <footer>
+    © 2025 Tienda de Velas Artesanales. Todos los derechos reservados. Gracias por tu compra y esperamos que buelvas. ✨💖🏡
+  </footer>
+</body>
+</html>
